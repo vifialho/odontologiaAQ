@@ -1,0 +1,131 @@
+:root{
+    --color_01: #4fd8cd;       
+    --color_02: #3a9996;
+    --color_03: #A6F6FF;
+    --color_04: #BEFFF7;
+
+    --color_05: #005954;       
+    --color_06: #338b85;
+    --color_07: #9ce0db;
+    --color_09: #4bc0c0;
+    --color_08: #5dc1b9;
+
+    
+}
+
+/* body{
+    font-family: "Monoton", sans-serif;
+} */
+
+.alt{
+    height: 250px;
+}
+
+.bg{
+    /* background-color: var(--color_08); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,89,84,1) 52%, rgba(75,192,192,1) 86%);
+}
+
+.doc{
+    border-radius: 30px;
+    height: 90%;
+    margin-top: 5px;
+}
+
+.fe{
+    height: 6rem;
+    justify-content: center; 
+      
+}
+
+.dent{
+    width: 110px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+.x{
+    border: 1px solid red;
+}
+
+.what{
+    width: 40px;
+    height: 40px;
+}
+
+.esp{
+    background-color: var(--color_02);
+}
+
+.loc{
+    background-color: var(--color_09);
+}
+
+.fotoloc{
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.localiza{
+    width: 80px;
+
+}
+
+.btn1{
+    width: 300px;
+    border-radius: 20px;
+    background-color: var(--color_03);
+}
+
+footer{
+    background-color: var(--color_05);
+}
+
+.icon{
+    width: 80%;
+    height: 100px;
+}
+
+.font-google {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fs-x{
+      font-size: 50px;
+      font-weight: bold;
+  }
+
+.logo{
+    width: 50%;
+    border-radius: 20%;
+}  
+
+.nav-link:hover {
+    background-color: lightgray; /* Cor ao passar o mouse */
+    transition: color 0.3s ease;
+}
+
+.nav-link:active {
+    background-color: #277e5d52; /* Cor ao tocar ou clicar */
+    color: white;
+}
+
+/* .img{
+
+    border: 1px solid red;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita que o conteúdo ultrapasse a largura da tela */
+}
+
+
